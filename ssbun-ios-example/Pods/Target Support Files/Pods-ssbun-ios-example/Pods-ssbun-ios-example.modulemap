@@ -1,0 +1,6 @@
+framework module Pods_ssbun_ios_example {
+  umbrella header "Pods-ssbun-ios-example-umbrella.h"
+
+  export *
+  module * { export * }
+}

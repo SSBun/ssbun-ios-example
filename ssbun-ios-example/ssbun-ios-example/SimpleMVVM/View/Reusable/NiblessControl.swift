@@ -1,0 +1,19 @@
+//
+//  NiblessControl.swift
+//  ssbun-ios-example
+//
+//  Created by SSBun on 2021/10/7.
+//
+
+import UIKit
+
+open class NiblessControl: UIControl {
+  public override init(frame: CGRect) {
+    super.init(frame: frame)
+  }
+  
+  @available(*, unavailable, message: "Loading this view from a nib is unsupported")
+  public required init?(coder aDecoder: NSCoder) {
+    fatalError("Loading this view from a nib is unsupported")
+  }
+}
